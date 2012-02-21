@@ -1,0 +1,23 @@
+{
+  "author": "Chase Sechrist <chase@sechrist.net>",
+  "name": "ejs-shrink",
+  "description": "Monkey-patches EJS to remove comments and extraneous whitespace before parsing",
+  "keywords": [
+    "ejs",
+    "compress",
+    "compile",
+    "optimize",
+    "shrink"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/sechrist/ejs-shrink.git"
+  },
+  "main": "./lib",
+  "engines": "0.6.x",
+  "dependencies": {
+    "underscore.string": ">=2.0.0",
+    "ejs": ">=0.4.3"
+  }
+}
