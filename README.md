@@ -7,3 +7,5 @@ Installing with [npm](https://github.com/issacs/npm)
 <pre>
 npm install ejs-shrink
 </pre>
+
+then to use just require('ejs-shrink'); anywhere, it patches the global module.
